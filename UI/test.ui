@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>241</width>
-    <height>500</height>
+    <width>235</width>
+    <height>496</height>
    </rect>
   </property>
   <property name="font">
@@ -17,6 +17,9 @@
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 170, 127);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="bttn01">
@@ -28,8 +31,15 @@
       <height>50</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 4);
+font: 75 9pt &quot;Berlin Sans FB Demi&quot;;
+background-color: rgb(170, 170, 127);
+border: 10px solid;
+border-color: rgb(255, 170, 255);</string>
+    </property>
     <property name="text">
-     <string>BUTTON #1</string>
+     <string>현재 환율</string>
     </property>
    </widget>
    <widget class="QPushButton" name="bttn02">
@@ -40,6 +50,11 @@
       <width>91</width>
       <height>50</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 8px dotted;
+border-color: rgb(163, 194, 200);
+</string>
     </property>
     <property name="text">
      <string>BUTTON #2</string>
@@ -61,6 +76,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);</string>
+    </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
     </property>
@@ -80,8 +98,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>241</width>
-     <height>22</height>
+     <width>235</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
